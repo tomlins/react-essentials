@@ -138,7 +138,7 @@ function Main(args) {
   return (
     <section>
 
-      <p>Welcome to learning to develop using React</p>
+      <p>Welcome to learning to develop with React</p>
 
       <FetchData />
 
