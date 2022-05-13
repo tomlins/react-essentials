@@ -3,11 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router } from 'react-router-dom';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App dinner={true}/>
+
+    {/** this wraps the App tag to denote that it contains routes */}
+    <Router>
+      <App />
+    </Router>
+    
   </React.StrictMode>
 );
 
